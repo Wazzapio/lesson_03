@@ -9,8 +9,6 @@ def calc():
     while y >= 0.0:
         y = float(input("Число должно быть отрицательным!\nВведите второе число(отрицательное): "))
 
-        return x, y
-
     answer = x ** y
 
     return (f'{x} в степени {y} = {answer}')
